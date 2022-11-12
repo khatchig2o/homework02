@@ -1,0 +1,59 @@
+header{
+  width: 100%;
+  background-color: $green2;
+  height: 100px;
+}
+header ul{
+  margin-top: 38px;
+  display: flex;
+  gap: 30px;
+  background-color: $green3;
+  height:30px;
+  border-bottom: 1px solid #506309;
+
+}
+
+header ul li a{
+  background-color: $green3;
+  margin-left: 10px;
+  height: 100%;
+  padding: 2px;
+
+}
+
+.active,li :hover{
+  background-color: $green2;
+  color: $dark-black;
+}
+
+
+
+.p-section1{
+  margin-top: 100px;
+}
+.p-section1 p{
+  margin-top: 20px;
+}
+.containers{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+.boxes{
+  width: 30%;
+  height: 300px;
+  text-align: left;
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.boxes:hover{
+  background-color: $green4;
+}
+
+footer{
+  background-color: $green4;
+  text-align: center;
+  margin-top: 30px;
+}
